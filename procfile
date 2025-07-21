@@ -1,1 +1,1 @@
-gunicorn PdfX.wsgi:application
+web: gunicorn Pdfx.wsgi:application
