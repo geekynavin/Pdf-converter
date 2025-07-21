@@ -1,7 +1,13 @@
+import uuid
+import io
+import os
 from django.shortcuts import render
 from django.http import HttpResponse
 from PIL import Image
-import io
+from .forms import PDFUploadForm
+from pdf2image import convert_from_path
+from django.conf import settings
+
 
 def index(request):
     if request.method == 'POST' and request.FILES.get('image'):
@@ -23,3 +29,5 @@ def index(request):
             return HttpResponse(f"Error: {e}")
 
     return render(request, 'testapp/index.html')
+
+

@@ -20,15 +20,14 @@
     <main>
         <nav>
             <li> <img src="{% static 'testapp/images/logo.png' %}" alt=""></li>
-            <li id="showMenu"><a href=""><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <li id="showMenu">
 
             </li>
 
         </nav>
 
         <div id="menu">
-            <li><a href="">CONVERT PDF TO IMAGE</a></li>
-            <li><a href="">CONVERT IMAGE TO PDF</a></li>
+          
 
         </div>
         <form id="uploadForm" enctype="multipart/form-data" method="POST">
@@ -42,7 +41,6 @@
                             <h3>Drag and Drop your Images to get output Pdf here.</h3>
                         </div>
                         <a href="">Browse to upload</a>
-                        <!-- <input type="file" class="file-input" id="pdfInput" accept="image/*"> -->
                         <input type="file" name="image" class="file-input" id="fileInput" accept="image/*" required>
                     </label>
 
@@ -60,7 +58,7 @@
 
         </div>
 
-
+     
 
 
     </main>
@@ -89,36 +87,3 @@
 
 
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PdfX - image to Pdf</title>
-    <link rel="stylesheet" href="{% static 'testapp/style.css' %}">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5339/5339184.png" type="image/x-icon">
-</head>
-<body>
-    <main>
- <h2>Upload Image</h2>
-
-  <form id="uploadForm" enctype="multipart/form-data" method="POST">
-    {% csrf_token %}
-    <input type="file" name="image" id="fileInput" accept="image/*" required>
-  </form>
-
-  <br>
-
-  <a id="downloadBtn" href="#" style="display:none;" download>Download PDF</a>
-
- 
-</main>
-
-    <script>
-        // When file is selected, auto-submit form
-        document.getElementById('fileInput').addEventListener('change', function() {
-            document.getElementById('uploadForm').submit();
-        });
-    </script>
-</body>
-</html> -->

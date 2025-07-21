@@ -12,16 +12,16 @@ a {
 }
 
 nav {
-  /* z-index: 1; */
+
   position: fixed;
   background-color: rgba(1, 41, 41, 0.301);
   width: 100vw;
   height: 8vh;
-  padding: 10px 10px;
+  padding: 14px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: relative; */
+
 }
 
 nav li {
@@ -31,7 +31,7 @@ nav li {
   font-size: 20px;
 
 
-  /* border: 1px solid white; */
+
 
 }
 
@@ -43,7 +43,7 @@ nav li i {
 
 nav li img {
   width: 200px;
-  height: 120px;
+  height: 140px;
   margin-top: 10px;
 }
 
@@ -52,12 +52,12 @@ nav li img {
   position: absolute;
   top: 8%;
   right: 3%;
-  /* background-color:rgba(255, 1, 170, 0.959); */
+
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  /* display: none; */
+
 
 }
 
@@ -71,12 +71,14 @@ nav li img {
   transition: 0.2s ease-in-out;
 
 }
-#menu li:hover{
-  background-color:rgba(127, 255, 212, 0.658) ;
-    transition: 0.2s ease-in-out;
-    
+
+#menu li:hover {
+  background-color: rgba(127, 255, 212, 0.658);
+  transition: 0.2s ease-in-out;
+
 
 }
+
 #menu li a {
   text-decoration: none;
   padding: 3px 7px;
@@ -84,16 +86,17 @@ nav li img {
 }
 
 #menu {
-  
-    opacity: 0;
-    transition: all 0.5s ease;
 
-    }
+  opacity: 0;
+  transition: all 0.5s ease;
+
+}
+
 #menu.show {
 
-      opacity: 1;
-      transition: all 0.5s ease;
-    }
+  opacity: 1;
+  transition: all 0.5s ease;
+}
 
 
 
@@ -204,6 +207,11 @@ main {
     margin-top: 40px;
   }
 
+  main {
+    width: 100vw;
+    height: 100vh;
+  }
+
   .custom-file-label {
     width: 250px;
     height: 250px;
@@ -216,54 +224,65 @@ main {
   .custom-file-label a {
     font-size: 16px;
   }
-    .custom-file-label a {
+
+  .custom-file-label a {
     font-size: 12px;
   }
-  nav li img{
-     width: 140px;
+
+  nav li img {
+    width: 140px;
     height: 80px;
   }
+
   #menu li a {
-   font-size: 12px;
-  
+    font-size: 12px;
+
   }
 }
 
 @media (max-width: 767px) {
   .textarea h1 {
-    font-size: 28px;
+    font-size: 32px;
     margin-top: 10%;
-
 
   }
 
   .textarea h3 {
-    font-size: 12px;
-    margin-top: 3%;
+    font-size: 14px;
+    margin-top: 4%;
     font-weight: 100;
   }
 
   .custom-file-label {
     margin-top: 40%;
-    width: 220px;
-    height: 220px;
-    outline-width: 5px;
+
   }
 
   .custom-file-label h3 {
     font-size: 16px;
-     
+
   }
 
   .custom-file-label a {
     font-size: 12px;
   }
-  nav li img{
-     width: 140px;
-    height: 80px;
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
+
+  nav li img {
+    width: 140px;
+    height: 80px;
+
+
+  }
+
   #menu li a {
-   font-size: 12px;
-  
+    font-size: 12px;
+
   }
 }
