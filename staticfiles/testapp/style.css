@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+
+}
+
+a {
+  color: white;
+}
+
+nav {
+
+  position: fixed;
+  background-color: rgba(1, 41, 41, 0.301);
+  width: 100vw;
+  height: 8vh;
+  padding: 14px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav li {
+  font-family: 'Inter', sans-serif;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+
+
+
+
+}
+
+nav li i {
+  color: aquamarine;
+  text-align: center;
+  padding-right: 20px;
+}
+
+nav li img {
+  width: 200px;
+  height: 140px;
+  margin-top: 10px;
+}
+
+#menu {
+
+  position: absolute;
+  top: 8%;
+  right: 3%;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+
+}
+
+#menu li {
+
+
+  background-color: rgba(0, 78, 68, 0.884);
+  list-style-type: none;
+  padding: 8px 20px;
+  border: 1px solid rgba(4, 231, 201, 0.432);
+  transition: 0.2s ease-in-out;
+
+}
+
+#menu li:hover {
+  background-color: rgba(127, 255, 212, 0.658);
+  transition: 0.2s ease-in-out;
+
+
+}
+
+#menu li a {
+  text-decoration: none;
+  padding: 3px 7px;
+  font-size: 14px;
+}
+
+#menu {
+
+  opacity: 0;
+  transition: all 0.5s ease;
+
+}
+
+#menu.show {
+
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+
+
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+
+}
+
+.textarea {
+  padding: 5%;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  color: #fff;
+}
+
+.textarea h1 {
+  color: #fff;
+  font-size: 74px;
+}
+
+.textarea h3 {
+  color: #fff;
+  font-size: 20px;
+
+}
+
+.custom-file-label a {
+  color: black;
+}
+
+.file-input {
+  display: none;
+}
+
+.custom-file-label {
+  display: inline-block;
+  align-content: center;
+  width: 23vw;
+  height: 13vh;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  box-sizing: content-box;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 90px;
+  left: 6px;
+  transition: 0.3s ease-in-out;
+
+
+}
+
+.custom-file-label:hover {
+  background-color: aquamarine;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+
+
+}
+
+.custom-file-label::after {
+  content: "";
+  outline: 5px dashed rgb(0, 255, 191);
+  animation: rotate 50s linear infinite;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* ===========================
+      Responsive Styles
+=========================== */
+
+@media (max-width: 1024px) {
+  .textarea h1 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  main {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .custom-file-label {
+    width: 250px;
+    height: 250px;
+  }
+
+  .custom-file-label h3 {
+    font-size: 20px;
+  }
+
+  .custom-file-label a {
+    font-size: 16px;
+  }
+
+  .custom-file-label a {
+    font-size: 12px;
+  }
+
+  nav li img {
+    width: 140px;
+    height: 80px;
+  }
+
+  #menu li a {
+    font-size: 12px;
+
+  }
+}
+
+@media (max-width: 767px) {
+  .textarea h1 {
+    font-size: 32px;
+    margin-top: 10%;
+
+  }
+
+  .textarea h3 {
+    font-size: 14px;
+    margin-top: 4%;
+    font-weight: 100;
+  }
+
+  .custom-file-label {
+    margin-top: 40%;
+
+  }
+
+  .custom-file-label h3 {
+    font-size: 16px;
+
+  }
+
+  .custom-file-label a {
+    font-size: 12px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  nav li img {
+    width: 140px;
+    height: 80px;
+
+
+  }
+
+  #menu li a {
+    font-size: 12px;
+
+  }
+}
