@@ -4,6 +4,8 @@
 ![Tech](https://img.shields.io/badge/built%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)
 ![Backend](https://img.shields.io/badge/backend-Python%20%7C%20Django-darkgreen)
 ![License](https://img.shields.io/badge/license-MIT%20%C2%A9%202025%20Navin-brightgreen)
+![License](https://img.shields.io/badge/license-MIT--by--@geekynavin-blue)
+
 
 
 ## 🚀 Description
