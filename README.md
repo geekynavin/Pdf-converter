@@ -48,15 +48,15 @@ PdfX is a web application that allows users to convert image files into PDF form
 
 ```bash
 PdfX/
-├── PdfX/ # Main Django project
-├── testapp/ # App for handling PDF conversion logic
-│ ├── templates/ # HTML templates
-│ ├── static/ # CSS and image assets
-├── media/ # Uploaded images (if any)
-├── screenshot.png # Screenshot image for README
-├── requirements.txt # Project dependencies
-├── manage.py # Django management file
-└── README.md # Project readme
+├── PdfX/             # Main Django project
+├── testapp/          # App for handling PDF conversion logic
+│ ├── templates/      # HTML templates
+│ ├── static/         # CSS and image assets
+├── media/            # Uploaded images (if any)
+├── screenshot.png    # Screenshot image for README
+├── requirements.txt  # Project dependencies
+├── manage.py         # Django management file
+└── README.md         # Project readme
 ```
 
 ---
