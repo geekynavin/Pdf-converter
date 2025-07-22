@@ -54,7 +54,7 @@ PdfX/
 
 ---
 
-🧠 How It Works
+## 🧠 How It Works
 
 1.User selects an image file using the upload form.
 2.Django handles the upload, converts the image to PDF using Pillow or reportlab.
