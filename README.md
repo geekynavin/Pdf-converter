@@ -1,11 +1,13 @@
 # 📄 PdfX – Image to PDF Converter
 
-**PdfX** is a simple, clean, and efficient web application that allows users to convert image files (JPG, PNG, etc.) into downloadable PDF documents. Built with **Python**, **Django**, **HTML**, and **CSS**, PdfX focuses on ease of use and fast performance.
-![License](https://img.shields.io/badge/license-MIT%20%C2%A9%202025%20Navin-brightgreen)
-
 ![Status](https://img.shields.io/badge/status-Live-brightgreen)
 ![Tech](https://img.shields.io/badge/built%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)
 ![Backend](https://img.shields.io/badge/backend-Python%20%7C%20Django-darkgreen)
+![License](https://img.shields.io/badge/license-MIT%20%C2%A9%202025%20Navin-brightgreen)
+
+
+## 🚀 Description
+PdfX is a web application that allows users to convert image files into PDF format. Built using Django, HTML, CSS, and JavaScript...
 
 
 ---
