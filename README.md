@@ -13,9 +13,9 @@ PdfX is a web application that allows users to convert image files into PDF form
 
 
 ---
-## 🔗 Live Demo
+## 🌐 Live Demo
 
-👉 [Click here to use PdfX](https://pdfx-navin.onrender.com/)
+🔗 [Visit QRCodeX](https://pdfx-navin.onrender.com/)
 
 ---
 
