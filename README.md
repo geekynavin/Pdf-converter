@@ -16,10 +16,9 @@ PdfX is a web application that allows users to convert image files into PDF form
 ## 🌐 Live Demo
 
 🔗 [Visit QRCodeX](https://pdfx-navin.onrender.com/)
-Kindly allow 30–40 seconds for the site to load.
-The project is hosted on Render's free tier, which means the server goes into hibernation when not in use. The first request after inactivity wakes it up, causing a delay of 30–40 seconds.
+## Kindly allow 30–40 seconds for the site to load.
+## The project is hosted on Render's free tier, which means the server goes into hibernation when not in use. The first request after inactivity wakes it up, causing a delay of 30–40 seconds.
 
-After that, the performance is normal. Thank you for your patience and understanding! 
 ---
 
 ## 📸 Screenshot
